@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "restaurant-finder-reactnative",
+    "slug": "restaurant-finder-reactnative",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "restaurant-finder-reactnative"
+}
