@@ -3,8 +3,8 @@ import { View, Text, Image, Button } from 'react-native'
 
 import styles from '../styles'
 
-function Restaurant({ route, navigation }) {
-  const { address, name, rating } = route.params.restaurant
+const Restaurant = ({ route, navigation }) => {
+  const { address, name, rating, photoUrl } = route.params.restaurant
 
   return (
     <View>

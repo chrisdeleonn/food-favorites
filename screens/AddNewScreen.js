@@ -21,6 +21,7 @@ const AddNewScreen = (navigation) => {
       method: 'POST',
       headers: {
         Accept: 'application/json',
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify(newRestaurant),
     })
@@ -42,7 +43,7 @@ const AddNewScreen = (navigation) => {
       <TextInput placeholder='Rating' style={styles.inputBox} onChangeText={(text) => setRating(text)} />
 
       <TouchableOpacity style={styles.customBtn} onPress={handleNewRestaurant}>
-        <Text style={{ color: 'white' }}>send new restaurant</Text>
+        <Text style={{ color: 'white' }}>Add</Text>
       </TouchableOpacity>
     </View>
   )
